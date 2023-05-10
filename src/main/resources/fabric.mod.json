@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "questsmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Quests Mod",
+  "description": "This mod introduces a new NPC which give creative quests in return for goods!",
   "authors": [
-    "Me!"
+    "Gauss_goat dm933@cam.ac.uk"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.dm933.quests.QuestsMod"
+    ],
+    "client": [
+      "net.dm933.quests.QuestsModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "questsmod.mixins.json"
   ],
 
   "depends": {
