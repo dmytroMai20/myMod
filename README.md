@@ -1,8 +1,10 @@
-# Fabric Example Mod
+# Minecraft Villager Swarm Controll Mod
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## TODO
+1.Implement swarm mechanism for villager control.
+2.Add GUI to copy-paste Schematics.
+3.Add logic to the kingdom eco-system.
+4.Add Raid logic.
 
 ## License
 
