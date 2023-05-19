@@ -1,4 +1,4 @@
-# Minecraft Villager Swarm Controll Mod
+# Minecraft Villager Swarm Control Mod
 
 ## TODO
 1.Implement swarm mechanism for villager control.
